@@ -35,6 +35,10 @@
 		A189AC6F24A2380A0094EF49 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A189AC6E24A2380A0094EF49 /* charleyrivers.jpg */; };
 		A189AC7124A2385B0094EF49 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A189AC7024A2385B0094EF49 /* UserData.swift */; };
 		A1A52F2D24A2E5D400F2BD7C /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A52F2C24A2E5D400F2BD7C /* Badge.swift */; };
+		A1A52F3024A2E6AC00F2BD7C /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A52F2F24A2E6AC00F2BD7C /* HexagonParameters.swift */; };
+		A1A52F3224A2EA1B00F2BD7C /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A52F3124A2EA1B00F2BD7C /* BadgeBackground.swift */; };
+		A1A52F3424A2EACB00F2BD7C /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A52F3324A2EACB00F2BD7C /* BadgeSymbol.swift */; };
+		A1A52F3624A2EBCB00F2BD7C /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A52F3524A2EBCB00F2BD7C /* RotatedBadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +72,10 @@
 		A189AC6E24A2380A0094EF49 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		A189AC7024A2385B0094EF49 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		A1A52F2C24A2E5D400F2BD7C /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		A1A52F2F24A2E6AC00F2BD7C /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		A1A52F3124A2EA1B00F2BD7C /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		A1A52F3324A2EACB00F2BD7C /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		A1A52F3524A2EBCB00F2BD7C /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 				A189AC5524A22B200094EF49 /* Resources */,
 				A1A52F2E24A2E5FB00F2BD7C /* Models */,
 				A1A52F2C24A2E5D400F2BD7C /* Badge.swift */,
+				A1A52F3324A2EACB00F2BD7C /* BadgeSymbol.swift */,
+				A1A52F3524A2EBCB00F2BD7C /* RotatedBadgeSymbol.swift */,
+				A1A52F3124A2EA1B00F2BD7C /* BadgeBackground.swift */,
 				A106800F24A2199A0024BF6C /* landmarkData.json */,
+				A1A52F2F24A2E6AC00F2BD7C /* HexagonParameters.swift */,
 				A1067FF324A19FCB0024BF6C /* AppDelegate.swift */,
 				A1067FF524A19FCB0024BF6C /* SceneDelegate.swift */,
 				A1067FF724A19FCB0024BF6C /* LandmarkDetail.swift */,
@@ -242,13 +254,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A52F3024A2E6AC00F2BD7C /* HexagonParameters.swift in Sources */,
 				A106800E24A219840024BF6C /* Data.swift in Sources */,
 				A1067FF424A19FCB0024BF6C /* AppDelegate.swift in Sources */,
 				A1A52F2D24A2E5D400F2BD7C /* Badge.swift in Sources */,
 				A106800824A1A4C10024BF6C /* CircleImage.swift in Sources */,
 				A106800A24A1A5D20024BF6C /* MapView.swift in Sources */,
 				A189AC5424A220540094EF49 /* LandmarkList.swift in Sources */,
+				A1A52F3424A2EACB00F2BD7C /* BadgeSymbol.swift in Sources */,
+				A1A52F3624A2EBCB00F2BD7C /* RotatedBadgeSymbol.swift in Sources */,
 				A1067FF624A19FCB0024BF6C /* SceneDelegate.swift in Sources */,
+				A1A52F3224A2EA1B00F2BD7C /* BadgeBackground.swift in Sources */,
 				A1067FF824A19FCB0024BF6C /* LandmarkDetail.swift in Sources */,
 				A106801224A21B670024BF6C /* LandmarkRow.swift in Sources */,
 				A189AC7124A2385B0094EF49 /* UserData.swift in Sources */,
