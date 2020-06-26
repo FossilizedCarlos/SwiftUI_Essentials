@@ -39,4 +39,3 @@ struct Badge_Previews: PreviewProvider {
         Badge()
     }
 }
-
